@@ -18,7 +18,7 @@ const WeatherCard = ({ data, weatherIcon }) => {
 
       <div className="flex items-center justify-between">
         <div className="">
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-1">
             <WiWindy size={30} />
             <h2 className="text-sm">{data.name && data.wind.speed} km/h</h2>
           </div>
@@ -26,7 +26,7 @@ const WeatherCard = ({ data, weatherIcon }) => {
         </div>
 
         <div className="">
-          <div className="flex items-center gap-2 ">
+          <div className="flex items-center gap-1 ">
             <FaDroplet />
             <h2 className="text-sm">{data.main && data.main.humidity}%</h2>
           </div>

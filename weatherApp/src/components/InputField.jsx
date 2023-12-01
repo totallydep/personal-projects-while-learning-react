@@ -13,7 +13,7 @@ const InputField = ({ city, setCity, handleSearch }) => {
       />
       <button
         onClick={(e) => handleSearch(e)}
-        className="py-1 px-3 w-1/3 bg-green-400 rounded-r"
+        className="py-1 px-3 w-1/3 bg-green-500 hover:bg-green-950 hover:text-white rounded-r"
       >
         Search
       </button>
